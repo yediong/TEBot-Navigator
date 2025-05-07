@@ -30,3 +30,44 @@
 
 🚧 **Tested On**  
 `Ubuntu 20.04 LTS` | `ROS Noetic` | `Python3`  
+
+---
+
+## Quick Start
+### environment
+Windows10 + Ubuntu20.04
+
+### Dependency
+1. ros-noetic：
+```shell
+wget http://fishros.com/install -O fishros && . fishros
+```
+2. navigation stack：
+```shell
+sudo apt install ros-noetic-navigation
+```
+3. teb_local_planner：
+```shell
+sudo apt install ros-noetic-teb-local-planner
+```
+
+### Build
+```shell
+mkdir -p navigation
+cd navigation
+mkdir -p src
+cd src
+catkin_init_workspace
+cd ..
+catkin_make
+source ./devel/setup.bash
+```
+
+### Run
+```shell
+roslaunch navigation run.launch
+```
+
+Initial interface after launch
+
+![](attachments/026f8c1cd68eab020e53d4ac8894a1f0.png)
