@@ -74,5 +74,5 @@ roslaunch navigation run.launch
 
 Initial interface after launch: 
 
-<img src="attachments/026f8c1cd68eab020e53d4ac8894a1f0.png" alt="1" style="width: 500px; height: auto;">
+<img src="attachments/026f8c1cd68eab020e53d4ac8894a1f0.png" alt="1" style="width: 700px; height: auto;">
 
