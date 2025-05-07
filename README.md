@@ -2,6 +2,7 @@
 **ROS-based Autonomous Navigation with Dynamic Obstacle Avoidance**
 
 Path Planning Result in Rviz:
+
 <img src="attachments/8938820ad827f7ae8b62ab046f885a26.png" alt="1" style="width: 300px; height: auto;">
 
 ⚡ **Highlights**  
