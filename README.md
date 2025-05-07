@@ -1,6 +1,10 @@
 # TEBot-Navigator  
 **ROS-based Autonomous Navigation with Dynamic Obstacle Avoidance**
 
+Path Planning Result in Rviz:
+
+![](attachments/8938820ad827f7ae8b62ab046f885a26.png)
+
 ⚡ **Highlights**  
 - **1150% Speed Boost**: Achieved 6 m/s max velocity through TEB parameter optimization  
 - **Sub-10cm Precision**: Enhanced navigation accuracy with adaptive tolerance tuning  
@@ -68,6 +72,6 @@ source ./devel/setup.bash
 roslaunch navigation run.launch
 ```
 
-Initial interface after launch
+Initial interface after launch: 
 
 ![](attachments/026f8c1cd68eab020e53d4ac8894a1f0.png)
