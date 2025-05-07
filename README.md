@@ -2,8 +2,7 @@
 **ROS-based Autonomous Navigation with Dynamic Obstacle Avoidance**
 
 Path Planning Result in Rviz:
-
-![](attachments/8938820ad827f7ae8b62ab046f885a26.png)
+<img src="attachments/8938820ad827f7ae8b62ab046f885a26.png" alt="1" style="width: 300px; height: auto;">
 
 ⚡ **Highlights**  
 - **1150% Speed Boost**: Achieved 6 m/s max velocity through TEB parameter optimization  
@@ -43,15 +42,15 @@ Windows10 + Ubuntu20.04
 
 ### Dependency
 1. ros-noetic：
-```shell
+```bash
 wget http://fishros.com/install -O fishros && . fishros
 ```
 2. navigation stack：
-```shell
+```bash
 sudo apt install ros-noetic-navigation
 ```
 3. teb_local_planner：
-```shell
+```bash
 sudo apt install ros-noetic-teb-local-planner
 ```
 
@@ -74,4 +73,5 @@ roslaunch navigation run.launch
 
 Initial interface after launch: 
 
-![](attachments/026f8c1cd68eab020e53d4ac8894a1f0.png)
+<img src="attachments/026f8c1cd68eab020e53d4ac8894a1f0.png" alt="1" style="width: 300px; height: auto;">
+
